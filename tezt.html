@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Cards</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    .card {
+        width: 200px;
+        position: relative;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .card-caption {
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+    }
+
+    .hover-card {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    .card:hover .hover-card {
+        display: flex;
+    }
+
+    .hover-card img {
+        width: 80%;
+        height: auto;
+    }
+
+    .hover-card-caption {
+        text-align: center;
+        padding: 20px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="card">
+    <img src="https://via.placeholder.com/200" alt="Product Image">
+    <div class="card-caption">
+        <h3>Product Name</h3>
+        <p>$19.99</p>
+    </div>
+    <div class="hover-card">
+        <img src="https://via.placeholder.com/400" alt="Product Image">
+        <div class="hover-card-caption">
+            <h3>Product Name</h3>
+            <p>Description lorem ipsum dolor sit amet</p>
+            <p>$19.99</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <img src="kushaq.jpg">
+        <h3>Another Product</h3>
+        <p>$29.99</p>
+    </div>
+    <div class="hover-card">
+        <img src="compass.jpeg">
+        <div class="hover-card-caption">
+            <h3>Another Product</h3>
+            <p>Description lorem ipsum dolor sit amet</p>
+            <p>$29.99</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <img src="ev6.jpeg">
+        <h3>One More Product</h3>
+        <p>$39.99</p>
+    </div>
+    <div class="hover-card">
+        <img src="https://via.placeholder.com/400" alt="Product Image">
+        <div class="hover-card-caption">
+            <h3>One More Product</h3>
+            <p>Description lorem ipsum dolor sit amet</p>
+            <p>$39.99</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

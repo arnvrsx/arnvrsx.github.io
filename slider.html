@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="slider.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Sliders</title>
+<style> 
+  .slider-container {
+    position: relative;
+    width: 95%; /* Adjusted width */
+    max-width: 1400px; /* Increased maximum width of slider container */
+    overflow: hidden;
+    border: 2px solid #ccc;
+    margin: 0 auto; /* Center the slider */
+    margin-bottom: 20px; /* Gap between sliders */
+  }
+
+  .slider {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .slider-card {
+    flex: 0 0 auto;
+    width: calc(20% - 20px); /* Adjusted width for 5 cards per row with 20px gap */
+    margin: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+  }
+
+  .slider-card img {
+    width: 100%; /* Full width of the card */
+    height: auto;
+  }
+
+  .slider-card-title {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+</style>
+</head>
+    
+<body>
+<header class="header">
+        <a href="#" class="logo" style="text-decoration: none">Savvari Nepal</a>
+       <div id="nav">
+        <ul>
+          
+        <li><a href="index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="slider.html">All Deals</a></li>
+                    <li><a href="#">Contact</a></li>
+        
+         
+  </ul>
+      </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+<h1 style="text-align: center">OUR CARS</h1>
+     <br>
+    <br>
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;High Range Segment</h3>
+    <br>
+<div class="slider-container">
+  <div class="slider" id="suv-slider">
+    <div class="slider-card">
+      <img src="atto3.jpg" alt="SUV 1">
+      <div class="slider-card-title">BYD ATTO 3 90KW</div>
+    </div>
+    <div class="slider-card">
+      <img src="mg.jpg" alt="SUV 1">
+      <div class="slider-card-title">MG ZS EV 2024</div>
+    </div>
+    <div class="slider-card">
+      <img src="everest.jpg" alt="SUV 1">
+      <div class="slider-card-title">FORD EVEREST 2023</div>
+    </div>
+    <div class="slider-card">
+      <img src="l200.jpg" alt="SUV 1">
+      <div class="slider-card-title">MITSUBISHI L200</div>
+    </div>
+    <div class="slider-card">
+      <img src="pali.jpg" alt="SUV 1">
+      <div class="slider-card-title">HYUNDAI PALISADE</div>
+    </div>
+        </div>
+</div>
+    <!-- Add more cards here -->
+      
+      <br>
+      <br>
+      <br>
+      <div class="slider-container">
+  <div class="slider" id="suv-slider">
+      <div class="slider-card">
+      <img src="dolphin.jpg" alt="SUV 1">
+      <div class="slider-card-title">BYD DOLPHIN</div>
+    </div>
+    <div class="slider-card">
+      <img src="magnitee.jpg" alt="SUV 1">
+      <div class="slider-card-title">NISSAN MAGNITE 2019</div>
+    </div>
+    <div class="slider-card">
+      <img src="fronx.jpg" alt="SUV 1">
+      <div class="slider-card-title">SUZUKI FRONX 2023</div>
+    </div>
+    <div class="slider-card">
+      <img src="punch.jpg" alt="SUV 1">
+      <div class="slider-card-title">TATA PUNCH 2023</div>
+    </div>
+    <div class="slider-card">
+      <img src="focus.jpg" alt="SUV 1">
+      <div class="slider-card-title">FORD FOCUS 2012</div>
+    </div>
+          </div>
+    </div>
+    
+
+ <br>
+    <br>
+    <br>
+ 
+</body>
+</html>

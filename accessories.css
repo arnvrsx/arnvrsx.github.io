@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    background: seagreen;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 90;
+}
+
+.logo{
+    
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#nav {
+    
+    display: inline-block;
+    text-align: center;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    background: #f2f2f2;
+    display: inline-block;
+    
+}
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+}
+
+ #nav ul li a:hover{
+            color: #fff;
+            background: #939393
+}
+
+right{
+   
+    align-items: center;
+    
+}
+
+.main{
+    
+    background-color: chocolate;
+}
+  .slider-container {
+    position: relative;
+    width: 80%; /* Adjusted width */
+    max-width: 500px; /* Maximum width of slider container */
+    overflow: hidden;
+    
+    margin: 0 auto; /* Center the slider */
+    margin-bottom: 20px; /* Gap between sliders */
+      
+  }
+
+  .slider {
+    display: flex;
+
+  }
+
+  .slider-card {
+    flex: 0 0 auto;
+    width: calc(30% - 20px); /* Adjusted width for 3 cards per row with 20px gap */
+    margin: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+  }
+
+  .slider-card img {
+    width: 100%; /* Full width of the card */
+    height: auto;
+  }
+
+  .slider-card-title {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .slider-controls {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .slider-controls button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .slider-controls button:hover {
+    background: #555;
+  }
