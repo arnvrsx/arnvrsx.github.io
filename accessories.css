@@ -72,7 +72,7 @@ right{
 
 .main{
     
-    background-color: chocolate;
+    background-color: lightblue;
 }
   .slider-container {
     position: relative;
@@ -99,6 +99,7 @@ right{
     cursor: pointer;
     text-align: center;
     align-items: center;
+      background-color: gray;
   }
 
   .slider-card img {
@@ -110,6 +111,7 @@ right{
     margin: 5px 0;
     font-size: 14px;
     font-weight: bold;
+      background-color: gray;
   }
 
   .slider-controls {
