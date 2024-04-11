@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
-
+    max-width: 13200px;
 }
 .header{
     position: fixed;
@@ -135,3 +135,21 @@ right{
   .slider-controls button:hover {
     background: #555;
   }
+.footer-container {
+            border: 1px solid #333;
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+ .footer-container p {
+            margin: 5px 0;
+        }
+
+        .footer-container a {
+            color: #fff;
+            text-decoration: none;
+        }

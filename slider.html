@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Sliders</title>
     <style> 
+        
         .slider-container {
             position: relative;
             width: 95%;
@@ -74,6 +75,28 @@
                 width: calc(50% - 20px); /* Two cards per row on smaller screens */
             }
         }
+                .slider-card a {
+            text-decoration: none;
+        }
+        .footer-container {
+            border: 1px solid #333;
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-container p {
+            margin: 5px 0;
+        }
+
+        .footer-container a {
+            color: #fff;
+            text-decoration: none;
+        }
     </style>
 </head>
     
@@ -101,64 +124,77 @@
     <br>
     <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;High Range Segment</h3>
     <br>
-    <div class="slider-container">
+       <div class="slider-container">
         <div class="slider" id="suv-slider">
             <div class="slider-card">
-                <img src="atto3.jpg" alt="SUV 1">
-                <div class="slider-card-title">BYD ATTO 3 90KW</div>
-                <div class="slider-card-price">NPR 90,00,000</div>
+                <a href="atto3.jpg" target="_blank">
+                    <img src="atto3.jpg" alt="BYD ATTO 3 90KW">
+                    <div class="slider-card-title">BYD ATTO 3 90KW</div>
+                    <div class="slider-card-price">NPR 90,00,000</div>
+                </a>
             </div>
             <div class="slider-card">
-                <img src="mg.jpg" alt="SUV 1">
-                <div class="slider-card-title">MG ZS EV 2024</div>
-                <div class="slider-card-price">NPR 52,00,000</div>
+                <a href="mg.jpg" target="_blank">
+                    <img src="mg.jpg" alt="MG ZS EV 2024">
+                    <div class="slider-card-title">MG ZS EV 2024</div>
+                    <div class="slider-card-price">NPR 52,00,000</div>
+                </a>
             </div>
             <div class="slider-card">
-                <img src="everest.jpg" alt="SUV 1">
-                <div class="slider-card-title">FORD EVEREST 2023</div>
-                <div class="slider-card-price">NPR 2,40,00,000</div>
+                <a href="everest.jpg" target="_blank">
+                    <img src="everest.jpg" alt="FORD EVEREST 2023">
+                    <div class="slider-card-title">FORD EVEREST 2023</div>
+                    <div class="slider-card-price">NPR 2,40,00,000</div>
+                </a>
             </div>
             <div class="slider-card">
-                <img src="l200.jpg" alt="SUV 1">
-                <div class="slider-card-title">MITSUBISHI L200</div>
-                <div class="slider-card-price">NPR 97,00,000</div>
+                <a href="l200.jpg" target="_blank">
+                    <img src="l200.jpg" alt="MITSUBISHI L200">
+                    <div class="slider-card-title">MITSUBISHI L200</div>
+                    <div class="slider-card-price">NPR 97,00,000</div>
+                </a>
             </div>
             <div class="slider-card">
-                <img src="pali.jpg" alt="SUV 1">
-                <div class="slider-card-title">HYUNDAI PALISADE</div>
-                <div class="slider-card-price">NPR 2,25,00,000</div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="slider-container">
-        <div class="slider" id="suv-slider">
-            <div class="slider-card">
-                <img src="dolphin.jpg" alt="SUV 1">
-                <div class="slider-card-title">BYD DOLPHIN</div>
-                <div class="slider-card-price">NPR 39,00,000</div>
+                <a href="pali.jpg" target="_blank">
+                    <img src="pali.jpg" alt="HYUNDAI PALISADE">
+                    <div class="slider-card-title">HYUNDAI PALISADE</div>
+                    <div class="slider-card-price">NPR 2,25,00,000</div>
+                </a>
             </div>
             <div class="slider-card">
-                <img src="magnitee.jpg" alt="SUV 1">
-                <div class="slider-card-title">NISSAN MAGNITE 2019</div>
-                <div class="slider-card-price">NPR 35,00,000</div>
+                <a href="dolphin.jpg" target="_blank">
+                    <img src="dolphin.jpg" alt="BYD DOLPHIN">
+                    <div class="slider-card-title">BYD DOLPHIN</div>
+                    <div class="slider-card-price">NPR 39,00,000</div>
+                </a>
             </div>
             <div class="slider-card">
-                <img src="fronx.jpg" alt="SUV 1">
-                <div class="slider-card-title">SUZUKI FRONX 2023</div>
-                <div class="slider-card-price">NPR 38,00,000</div>
+                <a href="magnitee.jpg" target="_blank">
+                    <img src="magnitee.jpg" alt="NISSAN MAGNITE 2019">
+                    <div class="slider-card-title">NISSAN MAGNITE 2019</div>
+                    <div class="slider-card-price">NPR 35,00,000</div>
+                </a>
             </div>
             <div class="slider-card">
-                <img src="punch.jpg" alt="SUV 1">
-                <div class="slider-card-title">TATA PUNCH 2023</div>
-                <div class="slider-card-price">NPR 33,99,000</div>
+                <a href="fronx.jpg" target="_blank">
+                    <img src="fronx.jpg" alt="SUZUKI FRONX 2023">
+                    <div class="slider-card-title">SUZUKI FRONX 2023</div>
+                    <div class="slider-card-price">NPR 38,00,000</div>
+                </a>
             </div>
             <div class="slider-card">
-                <img src="civicr.jpeg" alt="SUV 1">
-                <div class="slider-card-title">HONDA CIVIC TYPE-R</div>
-                <div class="slider-card-price">NPR 75,00,000</div>
+                <a href="punch.jpg" target="_blank">
+                    <img src="punch.jpg" alt="TATA PUNCH 2023">
+                    <div class="slider-card-title">TATA PUNCH 2023</div>
+                    <div class="slider-card-price">NPR 33,99,000</div>
+                </a>
+            </div>
+            <div class="slider-card">
+                <a href="civicr.jpeg" target="_blank">
+                    <img src="civicr.jpeg" alt="HONDA CIVIC TYPE-R">
+                    <div class="slider-card-title">HONDA CIVIC TYPE-R</div>
+                    <div class="slider-card-price">NPR 75,00,000</div>
+                </a>
             </div>
         </div>
     </div>
@@ -168,5 +204,16 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+     <div class="footer-container">
+        <p>Savvari Nepal</p>
+        <p>Contact: +977-9761755111</p>
+        <p>Address: Kathmandu, Nepal</p>
+    </div>
 </body>
 </html>
